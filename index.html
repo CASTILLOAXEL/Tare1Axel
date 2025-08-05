@@ -1,33 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Ejemplo de html </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <title>Página principal - Actividad 1</title>
+    <style>
+        nav a { margin: 0 10px; text-decoration: underline; color: #225; }
+        .info { background: #ffffaa; border-radius: 6px; padding: 18px; width: 75%; margin: 30px auto; border: 1px solid #ddd; }
+    </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi laborum porro rem cupiditate, deserunt alias at adipisci et vero voluptas quod nihil cum rerum velit dolorum est! Ullam, commodi error.</p>
+    <h2>Bienvenidos</h2>
+    <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="estudiantes.html">Estudiantes</a> |
+        <a href="administradores.html">Administradores</a> |
+        <a href="acercade.html">Acerca de</a>
+    </nav>
 
-<th>Pais</th>
-<th>Capital</th>
-<tr>    
-    <td>España</td>
-    <td>Madrid</td> 
-</tr>
-<tr>
-    <td>Francia</td>
-    <td>París</td>
-</tr>
-<tr>
-    <td>Italia</td>
-    <td>Roma</td>
-
-    <p>Este es un párrafo de ejemplo para mostrar cómo se vería el contenido en la página web. Puedes agregar más texto aquí para completar el diseño.</p>
-</tr>   
-    <td>Roma</td>       
-
+    <div class="info">
+        <strong>Al trabajar la página vamos a tener el siguiente información:</strong>
+        <ol>
+            <li>Presionar en Inicio, nos vamos a la página principal, con la información de nuestra página.</li>
+            <li>Al presionar en Estudiantes y Administradores, vamos a mostrar una tabla con el listado de estudiantes o administradores.</li>
+        </ol>
+    </div>
 </body>
 </html>
